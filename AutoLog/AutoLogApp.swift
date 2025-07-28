@@ -9,12 +9,21 @@ import SwiftUI
 
 @main
 struct AutoLogApp: App {
-    let persistenceController = PersistenceController.shared
+    let persistence = PersistenceController.shared
+    @StateObject private var session: UserSession
+
+    init() {
+        let ctx = persistence.container.viewContext
+        _session = StateObject(wrappedValue: UserSession(context: ctx))
+        ReminderScheduler.shared.requestAuthorization()
+    }
 
     var body: some Scene {
         WindowGroup {
             ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+                .environment(\.managedObjectContext, persistence.container.viewContext)
+                .environmentObject(session)
         }
     }
 }
+

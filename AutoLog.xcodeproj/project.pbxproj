@@ -6,6 +6,13 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C9346AA02E38043C00D3EF8E /* MaintenanceEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9346A9E2E38043C00D3EF8E /* MaintenanceEntry+CoreDataClass.swift */; };
+		C9346AA12E38043C00D3EF8E /* MaintenanceEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9346A9F2E38043C00D3EF8E /* MaintenanceEntry+CoreDataProperties.swift */; };
+		C9346AAA2E381C5800D3EF8E /* User+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9346AA92E381C5800D3EF8E /* User+CoreDataProperties.swift */; };
+		C9346AAB2E381C5800D3EF8E /* User+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9346AA82E381C5800D3EF8E /* User+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C9346A7F2E37FEA300D3EF8E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +34,10 @@
 		C9346A6C2E37FEA200D3EF8E /* AutoLog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9346A7E2E37FEA300D3EF8E /* AutoLogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9346A882E37FEA300D3EF8E /* AutoLogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9346A9E2E38043C00D3EF8E /* MaintenanceEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaintenanceEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C9346A9F2E38043C00D3EF8E /* MaintenanceEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MaintenanceEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		C9346AA82E381C5800D3EF8E /* User+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataClass.swift"; sourceTree = "<group>"; };
+		C9346AA92E381C5800D3EF8E /* User+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +86,10 @@
 		C9346A632E37FEA200D3EF8E = {
 			isa = PBXGroup;
 			children = (
+				C9346AA82E381C5800D3EF8E /* User+CoreDataClass.swift */,
+				C9346AA92E381C5800D3EF8E /* User+CoreDataProperties.swift */,
+				C9346A9E2E38043C00D3EF8E /* MaintenanceEntry+CoreDataClass.swift */,
+				C9346A9F2E38043C00D3EF8E /* MaintenanceEntry+CoreDataProperties.swift */,
 				C9346A6E2E37FEA200D3EF8E /* AutoLog */,
 				C9346A812E37FEA300D3EF8E /* AutoLogTests */,
 				C9346A8B2E37FEA300D3EF8E /* AutoLogUITests */,
@@ -236,6 +251,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9346AA02E38043C00D3EF8E /* MaintenanceEntry+CoreDataClass.swift in Sources */,
+				C9346AA12E38043C00D3EF8E /* MaintenanceEntry+CoreDataProperties.swift in Sources */,
+				C9346AAA2E381C5800D3EF8E /* User+CoreDataProperties.swift in Sources */,
+				C9346AAB2E381C5800D3EF8E /* User+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
